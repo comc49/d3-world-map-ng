@@ -25,7 +25,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              { "glob": "topojson.json", "input": "src/", "output": "./assets/" }
+              { "glob": "topojson.json", "input": "src/", "output": "./assets/" },
+              { "glob": "capitals.json", "input": "src/", "output": "./assets/" }
             ],
             "styles": [
               "src/styles.scss"

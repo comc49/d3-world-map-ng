@@ -1,2 +1,12 @@
-<div id="map"></div>
+<div id="map">
+    <div id="tooltip" class="hide">
+        <div class="countryName"></div>
+        <div class="totalUsage"></div>
+    </div>
+    <div class="button-containers">
+        <i class="fas fa-plus-circle" (click)="onZoomInClicked()">plus</i>
+        <i class="fas fa-minus-circle" (click)="onZoomOutClicked()">minus</i>
+        <i class="fas fa-redo" (click)="resetZoom()">reset</i>
+    </div>
+</div>
 <router-outlet></router-outlet>
